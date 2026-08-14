@@ -1,0 +1,7 @@
+Data: 14/08/2026
+Comando executado: dart format lib bin test && dart --version && dart test --reporter expanded
+
+Resultado observado:
+/bin/bash: line 1: dart: command not found
+
+Conclusão: o SDK Dart não está instalado nem disponível no PATH do ambiente original. A execução dos casos CT001 a CT025 está bloqueada até que um SDK compatível seja disponibilizado.

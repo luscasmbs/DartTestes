@@ -58,6 +58,9 @@ class Matricula {
 
     return '''
 Estudante: $nomeEstudante
+Curso: $curso
+Forma de pagamento: $formaPagamento
+Quantidade de parcelas: $quantidadeParcelas
 Valor final: R\$ ${valorFinal.toStringAsFixed(2)}
 Valor da parcela: R\$ ${valorParcela.toStringAsFixed(2)}
 ''';
